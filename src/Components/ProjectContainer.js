@@ -40,7 +40,7 @@ export default function ProjectContainer() {
             });
         }
         setSortedProjects(tempItems);
-    }, [filterItems]);
+    }, [filterItems, projects]);
 
     return (
         <section id='work-a' className='text-center'>
