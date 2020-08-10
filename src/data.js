@@ -2,6 +2,7 @@ import dice from './img/items/rolling-wild.jpg';
 import todolist from './img/todo-list.jpg';
 import barer from './img/barer-hjemmeside.jpg';
 import budget from './img/budgetCalc.jpg';
+import portifolio from './img/portifolioMain.jpg';
 
 const data = [
     {
@@ -60,6 +61,20 @@ const data = [
             src: 'https://edvard-todo-list.netlify.app/',
             description:
                 'A simple todo-list. Made using bootstrap and classes.',
+            react: true,
+            plainJavascript: false,
+        },
+    },
+    {
+        sys: {
+            id: 5,
+        },
+        fields: {
+            img: portifolio,
+            name: 'My Portifolio',
+            gitHub: 'https://github.com/Edvardunsvag/Edvard-Portifolio',
+            src: 'https://edvard-portifolio.netlify.app/',
+            description: 'This website. Used hooks.',
             react: true,
             plainJavascript: false,
         },

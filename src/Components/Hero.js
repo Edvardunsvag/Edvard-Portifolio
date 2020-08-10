@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Typist from 'react-typist';
 
 export default function Hero() {
     return (
@@ -6,11 +7,12 @@ export default function Hero() {
             <div className='container'>
                 <div className='header-content'>
                     <h1>
-                        I am Edvard, a
-                        <span
-                            className='txt-type'
-                            data-wait='1000'
-                            data-words='["Web-developer"]'></span>
+                        I am Edvard, a{' '}
+                        <Typist
+                            avgTypingDelay={150}
+                            cursor={{ hideWhenDone: true }}>
+                            Web Developer
+                        </Typist>
                     </h1>
                     <p className='lead'></p>
                     <a href='#about-a' className='btn-light'>
