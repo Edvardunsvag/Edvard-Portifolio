@@ -24,6 +24,7 @@ export default function ProjectContainer() {
 
     useEffect(() => {
         let tempItems = projects;
+        setProjects(tempItems);
 
         // <!-- React -->
 

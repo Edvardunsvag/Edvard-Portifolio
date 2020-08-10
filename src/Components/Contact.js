@@ -10,12 +10,16 @@ export default function Contact() {
                     <div className='item'>
                         <a
                             href='https://www.linkedin.com/in/edvard-unsv%C3%A5g-a9296b193/'
-                            className='fab fa-linkedin fa-4x linkedIn'></a>
+                            className='fab fa-linkedin fa-4x linkedIn'>
+                            {' '}
+                        </a>
                     </div>
                     <div className='item'>
                         <a
                             href='mailto:unsvaag@gmail.com'
-                            className='fas fa-envelope-open fa-4x'></a>
+                            className='fas fa-envelope-open fa-4x'>
+                            {' '}
+                        </a>
                     </div>
                 </div>
             </div>
