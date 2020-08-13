@@ -14,8 +14,7 @@ const data = [
             name: 'Dice Game App',
             gitHub: 'https://github.com/Edvardunsvag/Dice-Game',
             src: 'https://rolling-wild.herokuapp.com/',
-            description:
-                'A turn based two player game. It is made using vanilla javascript.',
+            description: 'Javascript, HTML, CSS',
             react: false,
             plainJavascript: true,
         },
@@ -30,8 +29,7 @@ const data = [
             gitHub: 'https://github.com/Edvardunsvag/Budget-calculator',
             src: 'https://edvard-budget-calculator.netlify.app/',
             react: true,
-            description:
-                'An app for keeping track of your budget. Made using react hooks.',
+            description: 'React, HTML, CSS',
             plainJavascript: false,
         },
     },
@@ -44,8 +42,7 @@ const data = [
             name: 'Bar Filtering App',
             gitHub: 'https://github.com/Edvardunsvag/Barer-I-Oslo',
             src: 'https://barer-i-oslo.netlify.app/',
-            description:
-                'Find the bar best suited for you. Made using context-API and classes.',
+            description: 'React, HTML, CSS',
             react: true,
             plainJavascript: false,
         },
@@ -59,8 +56,7 @@ const data = [
             name: 'Todo List',
             gitHub: 'https://github.com/Edvardunsvag/todo-list',
             src: 'https://edvard-todo-list.netlify.app/',
-            description:
-                'A simple todo-list. Made using bootstrap and classes.',
+            description: 'React, HTML, CSS',
             react: true,
             plainJavascript: false,
         },
@@ -74,7 +70,7 @@ const data = [
             name: 'My Portifolio',
             gitHub: 'https://github.com/Edvardunsvag/Edvard-Portifolio',
             src: 'https://edvard-portifolio.netlify.app/',
-            description: 'This website. Used hooks.',
+            description: 'React, HTML, CSS',
             react: true,
             plainJavascript: false,
         },
