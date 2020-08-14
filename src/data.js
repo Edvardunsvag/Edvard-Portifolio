@@ -3,6 +3,7 @@ import todolist from './img/todo-list.jpg';
 import barer from './img/barer-hjemmeside.jpg';
 import budget from './img/budgetCalc.jpg';
 import portifolio from './img/portifolioMain.jpg';
+import premierLeague from './img/premierLeague.jpg';
 
 const data = [
     {
@@ -68,6 +69,20 @@ const data = [
         fields: {
             img: portifolio,
             name: 'My Portifolio',
+            gitHub: 'https://github.com/Edvardunsvag/Edvard-Portifolio',
+            src: 'https://github.com/Edvardunsvag/PL-Quiz',
+            description: 'React, HTML, CSS',
+            react: true,
+            plainJavascript: false,
+        },
+    },
+    {
+        sys: {
+            id: 6,
+        },
+        fields: {
+            img: premierLeague,
+            name: 'Premier League Quiz',
             gitHub: 'https://github.com/Edvardunsvag/Edvard-Portifolio',
             src: 'https://edvard-portifolio.netlify.app/',
             description: 'React, HTML, CSS',
