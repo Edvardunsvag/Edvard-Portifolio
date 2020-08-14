@@ -18,6 +18,7 @@ const data = [
             description: 'Javascript, HTML, CSS',
             react: false,
             plainJavascript: true,
+            useEffect: false,
         },
     },
     {
@@ -32,6 +33,7 @@ const data = [
             react: true,
             description: 'React, HTML, CSS',
             plainJavascript: false,
+            useEffect: false,
         },
     },
     {
@@ -46,6 +48,7 @@ const data = [
             description: 'React, HTML, CSS',
             react: true,
             plainJavascript: false,
+            useEffect: false,
         },
     },
     {
@@ -60,6 +63,7 @@ const data = [
             description: 'React, HTML, CSS',
             react: true,
             plainJavascript: false,
+            useEffect: false,
         },
     },
     {
@@ -74,6 +78,7 @@ const data = [
             description: 'React, HTML, CSS',
             react: true,
             plainJavascript: false,
+            useEffect: true,
         },
     },
     {
@@ -88,6 +93,7 @@ const data = [
             description: 'React, HTML, CSS',
             react: true,
             plainJavascript: false,
+            useEffect: true,
         },
     },
 ];

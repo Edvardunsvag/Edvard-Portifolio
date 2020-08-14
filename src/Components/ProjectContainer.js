@@ -6,6 +6,7 @@ export default function ProjectContainer() {
     const [filterItems, setFilterItems] = useState({
         react: false,
         plainJavascript: false,
+        useEffect: false,
     });
 
     const [sortedProjects, setSortedProjects] = useState(data);
@@ -31,6 +32,12 @@ export default function ProjectContainer() {
         if (filterItems.react) {
             tempItems = tempItems.filter((item) => {
                 return item.fields.react === true;
+            });
+        }
+
+        if (filterItems.useEffect) {
+            tempItems = tempItems.filter((item) => {
+                return item.fields.useEffect === true;
             });
         }
 
@@ -63,6 +70,13 @@ export default function ProjectContainer() {
                         name='plainJavascript'
                         onChange={handleChange}
                         id='plainJavascript'></input>
+                    <label htmlFor=''>Use Effect</label>
+                    <input
+                        className='form-control'
+                        type='checkBox'
+                        name='useEffect'
+                        onChange={handleChange}
+                        id='useeffect'></input>
                 </div>
 
                 <div className='items'>
