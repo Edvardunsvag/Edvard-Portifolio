@@ -7,6 +7,7 @@ export default function ProjectContainer() {
         react: false,
         plainJavascript: false,
         useEffect: false,
+        contextAPI: false,
     });
 
     const [sortedProjects, setSortedProjects] = useState(data);
@@ -32,6 +33,12 @@ export default function ProjectContainer() {
         if (filterItems.react) {
             tempItems = tempItems.filter((item) => {
                 return item.fields.react === true;
+            });
+        }
+
+        if (filterItems.contextAPI) {
+            tempItems = tempItems.filter((item) => {
+                return item.fields.contextAPI === true;
             });
         }
 
@@ -77,6 +84,13 @@ export default function ProjectContainer() {
                         name='useEffect'
                         onChange={handleChange}
                         id='useeffect'></input>
+                    <label htmlFor=''>Context API</label>
+                    <input
+                        className='form-control'
+                        type='checkBox'
+                        name='contextAPI'
+                        onChange={handleChange}
+                        id='contextAPI'></input>
                 </div>
 
                 <div className='items'>
