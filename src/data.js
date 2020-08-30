@@ -4,24 +4,42 @@ import barer from './img/barer-hjemmeside.jpg';
 import budget from './img/budgetCalc.jpg';
 import portifolio from './img/portifolioMain.jpg';
 import premierLeague from './img/premierLeague.jpg';
+import cocktaildb from './img/items/CocktailDB.jpg';
 
 const data = [
     {
         sys: {
-            id: 1,
+            id: 6,
         },
         fields: {
-            img: dice,
-            name: 'Dice Game App',
-            gitHub: 'https://github.com/Edvardunsvag/Dice-Game',
-            src: 'https://rolling-wild.herokuapp.com/',
-            description: 'Javascript, HTML, CSS',
-            react: false,
-            plainJavascript: true,
-            useEffect: false,
+            img: premierLeague,
+            name: 'Premier League Quiz',
+            gitHub: 'https://github.com/Edvardunsvag/PL-Quiz',
+            src: 'https://premier-league-quiz.netlify.app/',
+            description: 'React, HTML, CSS, BOOTSTRAP',
+            react: true,
+            plainJavascript: false,
+            bootstrap: true,
+            contextAPI: true,
+        },
+    },
+    {
+        sys: {
+            id: 7,
+        },
+        fields: {
+            img: cocktaildb,
+            name: 'Cocktail DB',
+            gitHub: 'https://github.com/Edvardunsvag/CocktailDB',
+            src: 'https://edvard-cocktail-db.netlify.app/',
+            description: 'React, HTML, CSS',
+            react: true,
+            plainJavascript: false,
+            bootstrap: false,
             contextAPI: false,
         },
     },
+
     {
         sys: {
             id: 2,
@@ -34,7 +52,7 @@ const data = [
             react: true,
             description: 'React, HTML, CSS',
             plainJavascript: false,
-            useEffect: false,
+            bootstrap: false,
             contextAPI: false,
         },
     },
@@ -50,7 +68,7 @@ const data = [
             description: 'React, HTML, CSS',
             react: true,
             plainJavascript: false,
-            useEffect: false,
+            bootstrap: false,
             contextAPI: true,
         },
     },
@@ -63,10 +81,10 @@ const data = [
             name: 'Todo List',
             gitHub: 'https://github.com/Edvardunsvag/todo-list',
             src: 'https://edvard-todo-list.netlify.app/',
-            description: 'React, HTML, CSS',
+            description: 'React, HTML, CSS, BOOTSTRAP',
             react: true,
             plainJavascript: false,
-            useEffect: false,
+            bootstrap: true,
             contextAPI: false,
         },
     },
@@ -82,23 +100,23 @@ const data = [
             description: 'React, HTML, CSS',
             react: true,
             plainJavascript: false,
-            useEffect: true,
+            bootstrap: false,
             contextAPI: false,
         },
     },
     {
         sys: {
-            id: 6,
+            id: 1,
         },
         fields: {
-            img: premierLeague,
-            name: 'Premier League Quiz',
-            gitHub: 'https://github.com/Edvardunsvag/PL-Quiz',
-            src: 'https://premier-league-quiz.netlify.app/',
-            description: 'React, HTML, CSS',
-            react: true,
-            plainJavascript: false,
-            useEffect: true,
+            img: dice,
+            name: 'Dice Game App',
+            gitHub: 'https://github.com/Edvardunsvag/Dice-Game',
+            src: 'https://rolling-wild.herokuapp.com/',
+            description: 'Javascript, HTML, CSS',
+            react: false,
+            plainJavascript: true,
+            bootstrap: false,
             contextAPI: false,
         },
     },

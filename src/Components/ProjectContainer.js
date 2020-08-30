@@ -6,7 +6,7 @@ export default function ProjectContainer() {
     const [filterItems, setFilterItems] = useState({
         react: false,
         plainJavascript: false,
-        useEffect: false,
+        bootstrap: false,
         contextAPI: false,
     });
 
@@ -42,9 +42,9 @@ export default function ProjectContainer() {
             });
         }
 
-        if (filterItems.useEffect) {
+        if (filterItems.bootstrap) {
             tempItems = tempItems.filter((item) => {
-                return item.fields.useEffect === true;
+                return item.fields.bootstrap === true;
             });
         }
 
@@ -77,11 +77,11 @@ export default function ProjectContainer() {
                         name='plainJavascript'
                         onChange={handleChange}
                         id='plainJavascript'></input>
-                    <label htmlFor=''>Use Effect</label>
+                    <label htmlFor=''>Bootstrap</label>
                     <input
                         className='form-control'
                         type='checkBox'
-                        name='useEffect'
+                        name='bootstrap'
                         onChange={handleChange}
                         id='useeffect'></input>
                     <label htmlFor=''>Context API</label>
