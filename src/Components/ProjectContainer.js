@@ -61,7 +61,7 @@ export default function ProjectContainer() {
             <div className='container'>
                 <h2 className='section-title'>My Work</h2>
                 <div className='bottom-line'></div>
-                <p className='lead'>Filter By Language/Framework</p>
+                <p className='lead'>Filter By Category</p>
                 <div className='form-group lead'>
                     <label htmlFor=''>React</label>
                     <input
