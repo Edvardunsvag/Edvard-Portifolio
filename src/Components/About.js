@@ -11,8 +11,8 @@ export default function About(props) {
                     <img src={img} alt=' ' className='bio-image' />
                     <div className='bio bg-light'>
                         <p className='lead'>
-                            My name is Edvard Unsvåg and I am a twenty three
-                            year old guy based in Oslo. I finished my bachelors
+                            My name is Edvard Unsvåg and I am a twenty four year
+                            old guy based in Oslo. I finished my bachelors
                             degree in informatics in 2020, and have now started
                             on my masters degree in informatics. Both at the
                             University of Oslo. In my bachelor there were no web
