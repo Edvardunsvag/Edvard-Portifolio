@@ -16,7 +16,7 @@ const data = [
             name: 'Premier League Quiz',
             gitHub: 'https://github.com/Edvardunsvag/PL-Quiz',
             src: 'https://premier-league-quiz.netlify.app/',
-            description: 'React, HTML, CSS, BOOTSTRAP',
+            description: 'React, HTML, CSS, BOOTSTRAP, FIREBASE',
             react: true,
             plainJavascript: false,
             bootstrap: true,
