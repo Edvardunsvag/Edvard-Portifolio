@@ -70,13 +70,6 @@ export default function ProjectContainer() {
                         name='react'
                         onChange={handleChange}
                         id='React'></input>
-                    <label htmlFor=''>Plain Javascript</label>
-                    <input
-                        className='form-control'
-                        type='checkBox'
-                        name='plainJavascript'
-                        onChange={handleChange}
-                        id='plainJavascript'></input>
                     <label htmlFor=''>Bootstrap</label>
                     <input
                         className='form-control'
